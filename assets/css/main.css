@@ -741,9 +741,10 @@ table {
 /* Box */
 
 .box {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
   color: #39454b;
   padding: 2em;
+  border-radius: 10px;
 }
 
 .box > :last-child {
@@ -752,6 +753,18 @@ table {
 
 .box.style2 {
   padding: 3.5em 2.5em 3.5em 2.5em;
+}
+
+.box {
+  color: #386fa4;
+}
+
+.box h2 {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
 }
 
 @media screen and (max-width: 736px) {
@@ -780,10 +793,9 @@ button {
   -webkit-transition: background-color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-  background-color: #98c593;
+  background-color: #ffe261;
   border: 0;
-  border-radius: 3.5em;
-  color: #ffffff;
+  color: #133c55;
   cursor: pointer;
   display: inline-block;
   height: 3.5em;
@@ -793,6 +805,9 @@ button {
   position: relative;
   text-align: center;
   text-decoration: none;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: bold;
 }
 
 input[type="button"].down,
@@ -928,6 +943,16 @@ form > .fields > .field.third {
 
 form > .fields > .field.quarter {
   width: calc(25% - 0.375em);
+}
+
+.field.half > input {
+  background: white;
+  border: 2px solid #386fa4;
+}
+
+.field > textarea {
+  background: white;
+  border: 2px solid #386fa4;
 }
 
 @media screen and (max-width: 480px) {
@@ -2039,7 +2064,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .main > .content > :last-child {
-  margin-bottom: 0;
+  margin-bottom: 4em;
 }
 
 .main.fullscreen {
