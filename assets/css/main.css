@@ -614,7 +614,7 @@ select {
   input,
   textarea,
   select {
-    font-size: 17pt;
+    font-size: 18pt;
   }
 }
 
@@ -741,7 +741,7 @@ table {
 /* Box */
 
 .box {
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
   color: #39454b;
   padding: 2em;
   border-radius: 10px;
@@ -762,9 +762,14 @@ table {
 .box h2 {
   font-family: "Futura";
   font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 48px;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.6667rem;
+}
+
+.box > header > p {
+  font-weight: 500;
+  font-size: 1.3333rem;
 }
 
 @media screen and (max-width: 736px) {
@@ -798,7 +803,7 @@ button {
   color: #133c55;
   cursor: pointer;
   display: inline-block;
-  height: 3.5em;
+  height: 3.7778em;
   line-height: 3.5em;
   outline: 0;
   padding: 0 2em 0 2em;
@@ -808,6 +813,8 @@ button {
   font-family: "Futura";
   font-style: normal;
   font-weight: bold;
+  width: 21.111rem;
+  border-radius: 0.5556rem;
 }
 
 input[type="button"].down,
@@ -905,6 +912,11 @@ form {
 
 form > :last-child {
   margin-bottom: 0;
+}
+
+.fields span {
+  display: flex;
+  font-weight: 700;
 }
 
 form > .fields {
@@ -2387,12 +2399,12 @@ body.is-touch .main {
 /* Contact */
 
 #contact {
-  background: url("images/overlay.png"), url("../../images/three.png");
-  background-size: 256px 256px, cover;
+  background: #ffc300;
+  /* background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
   overflow: hidden;
-  padding-bottom: 0;
+  padding-bottom: 0; */
 }
 
 #contact .box {
