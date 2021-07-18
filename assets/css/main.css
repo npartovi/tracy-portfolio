@@ -878,6 +878,7 @@ button.style2 {
   background-color: transparent;
   border: solid 2px #e5e6e7;
   color: inherit;
+  border-radius: 50%;
 }
 
 input[type="button"].style2:hover,
@@ -1992,6 +1993,8 @@ body.is-touch .poptrox-popup .closer {
   line-height: 3em;
   cursor: default;
   color: white;
+  font-family: "PilGi";
+  font-size: 1.7778rem;
 }
 
 #header h1 a {
@@ -2009,6 +2012,9 @@ body.is-touch .poptrox-popup .closer {
 #header nav ul {
   margin: 0;
   color: white;
+  font-family: "Futura";
+  font-size: 1.3333rem;
+  font-weight: 500;
 }
 
 #header nav ul li {
@@ -2029,8 +2035,7 @@ body.is-touch .poptrox-popup .closer {
 
 @media screen and (max-width: 736px) {
   #header {
-    height: 2.5em;
-    line-height: 2.5em;
+    display: none;
   }
 
   #header h1 {
@@ -2052,9 +2057,9 @@ body.is-touch .poptrox-popup .closer {
 }
 
 @media screen and (max-width: 736px) {
-  body {
+  /* body {
     padding-top: 2.5em;
-  }
+  } */
 }
 
 /* Main */
@@ -2098,7 +2103,15 @@ body.is-touch .poptrox-popup .closer {
 
 .main.style1 h2 {
   font-size: 4.25em;
-  line-height: 1em;
+  line-height: 1.5em;
+  font-family: "Futura";
+}
+
+.content h3 {
+  font-family: "Futura";
+  font-size: 1.333em;
+  font-weight: 500;
+  line-height: 32px;
 }
 
 .main.style1 > .content {
@@ -2387,6 +2400,10 @@ body.is-touch .main {
   background-position: top left, center center;
 }
 
+#one .box {
+  color: #133c55;
+}
+
 /* Two */
 
 /* #two {
@@ -2437,3 +2454,9 @@ body.is-touch .main {
     padding: 1em 1em 2em 1em;
   }
 }
+
+/* Custom Css */
+
+/* a.button.style2.down {
+  border-radius: 50%;
+} */
