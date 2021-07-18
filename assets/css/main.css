@@ -1123,6 +1123,10 @@ textarea {
   background: url("images/overlay.png");
 }
 
+section#work {
+  height: 100%;
+}
+
 .image img {
   display: block;
   width: 100%;
