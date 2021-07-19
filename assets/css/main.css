@@ -1127,6 +1127,23 @@ section#work {
   height: 100%;
 }
 
+.image {
+  position: relative;
+  display: inline-block;
+}
+
+.image .img-back {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.image:hover .img-back {
+  display: inline;
+}
+
 .image img {
   display: block;
   width: 100%;
