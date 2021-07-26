@@ -2467,12 +2467,35 @@ body.is-touch .main {
 /* Contact */
 
 #contact {
-  background: #ffc300;
+  background: #dbf5f2;
   /* background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
   overflow: hidden;
   padding-bottom: 0; */
+  color: #000000;
+  height: 35.67rem;
+}
+
+#contact h1 {
+  font-size: 3.2rem;
+  line-height: 3.87rem;
+}
+
+#contact h2 {
+  font-size: 1.6rem;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 58px;
+  margin-top: 4.93rem;
+  justify-content: space-evenly;
+}
+
+.social-container i {
+  color: black;
 }
 
 #contact .box {
