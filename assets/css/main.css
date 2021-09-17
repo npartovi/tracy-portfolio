@@ -2444,6 +2444,11 @@ section#intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
+}
+
+.intro-profile-image {
+  margin-right: 115px;
 }
 
 /* One */
