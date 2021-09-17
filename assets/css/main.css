@@ -2027,9 +2027,9 @@ body.is-touch .poptrox-popup .closer {
   height: 3em;
   line-height: 3em;
   cursor: default;
-  color: white;
+  color: black;
   font-family: "PilGi";
-  font-size: 1.7778rem;
+  font-size: 2rem;
 }
 
 #header h1 a {
@@ -2046,7 +2046,7 @@ body.is-touch .poptrox-popup .closer {
 
 #header nav ul {
   margin: 0;
-  color: white;
+  color: black;
   font-family: "Futura";
   font-size: 1.3333rem;
   font-weight: 500;
@@ -2147,7 +2147,7 @@ body.is-touch .poptrox-popup .closer {
 .main.style1 h2 {
   font-size: 4.25em;
   line-height: 1.5em;
-  font-family: "Futura";
+  font-family: "Druk Wide";
 }
 
 .content h3 {
@@ -2244,14 +2244,6 @@ body.is-touch .poptrox-popup .closer {
 
 .main.style3 .content > header {
   margin-bottom: 2em;
-}
-
-.main.style3.primary {
-  background: #d8bbff;
-}
-
-.main.style3.secondary {
-  background: #f5f6f7;
 }
 
 .main.dark {
@@ -2434,12 +2426,24 @@ body.is-touch .main {
 
 /* Intro */
 
-#intro {
-  background: url("images/overlay.png"), url("../../images/intro.png");
-  background-size: 256px 256px, cover;
-  background-attachment: fixed, fixed;
-  background-position: top left, bottom center;
-  background-repeat: repeat, no-repeat;
+.custom-background {
+  background: linear-gradient(180deg, #f6d5f7 40.12%, #fbe9d7 90.68%);
+}
+
+section#intro {
+  height: 100vh;
+}
+
+#intro .content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#intro header {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* One */
@@ -2467,7 +2471,6 @@ body.is-touch .main {
 /* Contact */
 
 #contact {
-  background: #dbf5f2;
   /* background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
