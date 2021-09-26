@@ -768,7 +768,7 @@ li.project-item {
 }
 
 .image-container {
-  width: 40%;
+  width: 60%;
 }
 
 .image-container > img {
@@ -777,11 +777,11 @@ li.project-item {
 }
 
 .project-text-container {
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
 /* Box */
@@ -2284,8 +2284,9 @@ body.is-touch .poptrox-popup .closer {
   font-size: 2.6667rem;
   font-style: normal;
   font-family: "Futura";
-  color: #133c55;
+  color: #5465ff;
   line-height: 3.5556rem;
+  text-align: left;
 }
 
 .main.style3 .content > header {
