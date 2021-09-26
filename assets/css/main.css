@@ -2075,7 +2075,7 @@ body.is-touch .poptrox-popup .closer {
   cursor: default;
   color: black;
   font-family: "PilGi";
-  font-size: 2rem;
+  font-size: 36px;
 }
 
 #header h1 a {
@@ -2114,7 +2114,20 @@ body.is-touch .poptrox-popup .closer {
   outline: 0;
 }
 
+.intro-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
 @media screen and (max-width: 736px) {
+  #intro .content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
   #header {
     display: none;
   }
@@ -2167,10 +2180,6 @@ body.is-touch .poptrox-popup .closer {
   width: 45em;
   max-width: calc(100% - 4em);
   margin: 0 auto;
-}
-
-.main > .content > :last-child {
-  margin-bottom: 4em;
 }
 
 .main.fullscreen {
@@ -2486,17 +2495,13 @@ section#intro {
   justify-content: space-evenly;
 }
 
-#intro header {
+/* #intro > header {
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
-}
-
-.intro-profile-image {
-  margin-right: 115px;
-}
+} */
 
 /* One */
 
