@@ -754,9 +754,14 @@ li.project-item {
   flex-direction: row;
 }
 
-.project-text-container h1 {
+.project-text-container {
+  font-family: "Futura";
+}
+
+.project-text-container > h1 {
   font-size: 50px;
   line-height: 66px;
+  letter-spacing: 0px;
 }
 
 .project-text-container h2 {
@@ -2203,6 +2208,8 @@ body.is-touch .poptrox-popup .closer {
   font-size: 4.25em;
   line-height: 1.5em;
   font-family: "Druk Wide";
+  font-style: normal;
+  font-weight: bold;
 }
 
 .content h3 {
@@ -2286,7 +2293,7 @@ body.is-touch .poptrox-popup .closer {
 
 .main.style3 {
   text-align: center;
-  padding: 6em 0 6em 0;
+  padding: 0 0 6em 0;
 }
 
 #work > .content > header > h2 {
@@ -2296,6 +2303,8 @@ body.is-touch .poptrox-popup .closer {
   color: #5465ff;
   line-height: 3.5556rem;
   text-align: left;
+  letter-spacing: 0px;
+  font-weight: 500;
 }
 
 .main.style3 .content > header {
@@ -2540,6 +2549,7 @@ section#intro {
 #contact h1 {
   font-size: 3.2rem;
   line-height: 3.87rem;
+  margin-bottom: 36px;
 }
 
 #contact h2 {
@@ -2550,8 +2560,9 @@ section#intro {
   display: flex;
   flex-direction: row;
   font-size: 58px;
-  margin-top: 4.93rem;
+  margin-top: 62px;
   justify-content: space-evenly;
+  margin-bottom: 4rem;
 }
 
 .social-container i {
