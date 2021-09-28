@@ -2119,11 +2119,22 @@ body.is-touch .poptrox-popup .closer {
   outline: 0;
 }
 
+img#ellipse-image {
+  position: absolute;
+  right: 46px;
+  top: -66px;
+  z-index: -1;
+}
+
+.intro-profile-image {
+  position: relative;
+}
+
 .intro-header-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   color: black;
 }
 
@@ -2205,25 +2216,35 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .main.style1 h2 {
-  font-size: 4.25em;
+  font-size: 64px;
   line-height: 1.5em;
-  font-family: "Druk Wide";
+  font-family: "Futura";
   font-style: normal;
   font-weight: bold;
 }
 
 .content h3 {
   font-family: "Futura";
-  font-size: 1.333em;
+  font-size: 24px;
   font-weight: 500;
   line-height: 32px;
 }
 
+#contact.main {
+  padding: 0px;
+  align-items: center;
+  display: flex;
+}
+
+#work.main {
+  padding-bottom: 0px;
+}
+
 .main.style1 > .content {
-  -moz-transition: opacity 1s ease;
+  /* -moz-transition: opacity 1s ease;
   -webkit-transition: opacity 1s ease;
   -ms-transition: opacity 1s ease;
-  transition: opacity 1s ease;
+  transition: opacity 1s ease; */
   -moz-transform: translateZ(0);
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -2232,9 +2253,9 @@ body.is-touch .poptrox-popup .closer {
   margin: 0;
 }
 
-.main.style1.inactive > .content {
+/* .main.style1.inactive > .content {
   opacity: 0;
-}
+} */
 
 .main.style2 {
   -moz-align-items: center;
@@ -2496,7 +2517,7 @@ body.is-touch .main {
 }
 
 section#intro {
-  height: 63vh;
+  height: 75vh;
 }
 
 #intro .content {
