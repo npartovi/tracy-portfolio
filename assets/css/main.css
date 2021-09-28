@@ -2240,6 +2240,14 @@ img#ellipse-image {
   padding-bottom: 0px;
 }
 
+.social-container a {
+  margin-right: 124px;
+}
+
+.social-container a:last-child {
+  margin-right: 0px;
+}
+
 .main.style1 > .content {
   /* -moz-transition: opacity 1s ease;
   -webkit-transition: opacity 1s ease;
@@ -2582,7 +2590,7 @@ section#intro {
   flex-direction: row;
   font-size: 58px;
   margin-top: 62px;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 4rem;
 }
 
