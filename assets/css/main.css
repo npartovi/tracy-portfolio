@@ -2634,3 +2634,32 @@ section#intro {
 /* a.button.style2.down {
   border-radius: 50%;
 } */
+
+/* about */
+
+.custom-background-about {
+  background: #d8bbff;
+}
+
+.about-header-container {
+  display: flex;
+}
+
+.about-header-text h1 {
+  color: black;
+  font-size: 48px;
+  text-align: left;
+  font-family: "Futura";
+}
+
+.about-header-text p {
+  color: black;
+  font-family: "Futura";
+  font-size: 18px;
+  text-align: left;
+}
+
+.about-header-text {
+  display: flex;
+  flex-direction: column;
+}
