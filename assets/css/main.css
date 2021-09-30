@@ -2238,7 +2238,7 @@ img#ellipse-image {
 }
 
 #work.main {
-  padding-bottom: 0px;
+  padding-bottom: 110px;
 }
 
 .social-container a {
@@ -2576,7 +2576,7 @@ section#intro {
   overflow: hidden;
   padding-bottom: 0; */
   color: #000000;
-  height: 35.67rem;
+  height: 26.67rem;
 }
 
 #contact h1 {
@@ -2642,11 +2642,12 @@ section#intro {
 /* about */
 
 .custom-background-about {
-  background: #d8bbff;
+  background: linear-gradient(180deg, #d8bbff 0%, #e2fdff 100%);
 }
 
 .about-header-container {
   display: flex;
+  margin-top: 60px;
 }
 
 .about-header-text h1 {
@@ -2667,6 +2668,9 @@ section#intro {
 .about-header-text {
   display: flex;
   flex-direction: column;
+  text-align: left;
+  padding-left: 100px;
+  justify-content: center;
 }
 
 .content.about-content {
@@ -2681,4 +2685,10 @@ section#intro {
   height: 85.74px;
   width: 236px;
   font-size: 18px;
+  margin-top: 25px;
+}
+
+.custom-background-about #intro {
+  height: 100%;
+  padding-bottom: 0px;
 }
