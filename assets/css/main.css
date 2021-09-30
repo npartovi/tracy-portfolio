@@ -2081,6 +2081,7 @@ body.is-touch .poptrox-popup .closer {
   color: black;
   font-family: "PilGi";
   font-size: 36px;
+  cursor: pointer;
 }
 
 #header h1 a {
@@ -2691,4 +2692,28 @@ section#intro {
 .custom-background-about #intro {
   height: 100%;
   padding-bottom: 0px;
+}
+
+#header nav ul li {
+  display: inline-block;
+}
+
+.sliding-middle-out {
+  display: inline-block;
+  position: relative;
+}
+
+.sliding-middle-out:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 4px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.sliding-middle-out:hover:after {
+  width: 100%;
+  background: black;
 }
