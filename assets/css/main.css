@@ -2544,7 +2544,7 @@ section#intro {
 
 #intro .content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 /* #intro > header {
