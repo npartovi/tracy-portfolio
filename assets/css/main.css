@@ -2806,6 +2806,16 @@ section#intro {
   .intro-header-text {
     align-items: center;
   }
+
+  .project-text-container > h1 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0px;
+  }
+
+  .project-text-container h2 {
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
