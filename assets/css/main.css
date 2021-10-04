@@ -746,8 +746,8 @@ section#work {
 }
 
 .projects-list li {
-  height: 276px;
-  width: 1064px;
+  height: 17.25rem;
+  width: 66.5rem;
   background: #f4f4f4;
   margin-bottom: 26px;
   border-radius: 10px;
@@ -771,13 +771,13 @@ li.project-item {
 }
 
 .project-text-container > h1 {
-  font-size: 50px;
-  line-height: 66px;
+  font-size: 3.125rem;
+  line-height: 4.125rem;
   letter-spacing: 0px;
 }
 
 .project-text-container h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .projects-list {
@@ -796,7 +796,13 @@ li.project-item {
   text-align: left;
 }
 
-@media screen and (max-width: 736px) {
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 /* Box */
@@ -2142,6 +2148,11 @@ img#ellipse-image {
   position: relative;
 }
 
+.intro-profile-image img {
+  height: auto;
+  width: 100%;
+}
+
 .intro-header-text {
   display: flex;
   flex-direction: column;
@@ -2228,7 +2239,7 @@ img#ellipse-image {
 }
 
 .main.style1 h2 {
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 1.5em;
   font-family: "Futura";
   font-style: normal;
@@ -2237,7 +2248,7 @@ img#ellipse-image {
 
 .content h3 {
   font-family: "Futura";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -2550,7 +2561,7 @@ body.is-touch .main {
 section#intro {
   height: 75vh;
   width: 77em;
-  max-width: calc(100% - 4em);
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -2750,4 +2761,63 @@ section#intro {
 .custom-background-case-study #intro {
   height: 100%;
   padding-bottom: 0px;
+}
+
+@media screen and (max-width: 1280px) {
+  .main > .content {
+    width: 100%;
+  }
+
+  #intro .content {
+    justify-content: space-evenly;
+  }
+
+  .projects-list {
+    width: 100%;
+  }
+
+  .projects-list li {
+    width: 100%;
+  }
+
+  section#intro {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .work-container {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .projects-list li {
+    height: 13.25rem;
+  }
+  .intro-profile-image {
+    width: 50%;
+  }
+
+  #intro .content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-header-text {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro-profile-image {
+    width: 256px;
+  }
+
+  .main.style1 h2 {
+    font-size: 2.5em;
+  }
+
+  .work-header > h2 {
+    font-size: 1.5rem;
+  }
 }
