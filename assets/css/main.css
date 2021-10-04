@@ -2820,4 +2820,17 @@ section#intro {
   .work-header > h2 {
     font-size: 1.5rem;
   }
+
+  .projects-list li {
+    height: 8.25rem;
+  }
+
+  .project-text-container > h1 {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+  }
+
+  .project-text-container h2 {
+    font-size: 0.9rem;
+  }
 }
