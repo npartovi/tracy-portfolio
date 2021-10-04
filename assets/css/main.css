@@ -2833,4 +2833,22 @@ section#intro {
   .project-text-container h2 {
     font-size: 0.9rem;
   }
+
+  .content h3 {
+    font-size: 1.2rem;
+  }
+
+  #contact h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .social-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 58px;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 41px;
+  }
 }
