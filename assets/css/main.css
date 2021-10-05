@@ -2158,8 +2158,8 @@ img#ellipse-image {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   color: black;
+  text-align: left;
 }
 
 @media screen and (max-width: 736px) {
