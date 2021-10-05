@@ -2146,6 +2146,7 @@ img#ellipse-image {
 
 .intro-profile-image {
   position: relative;
+  margin-right: 120px;
 }
 
 .intro-profile-image img {
@@ -2567,7 +2568,8 @@ section#intro {
 
 #intro .content {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
 }
 
 /* #intro > header {
@@ -2768,10 +2770,6 @@ section#intro {
     width: 100%;
   }
 
-  #intro .content {
-    justify-content: space-evenly;
-  }
-
   .projects-list {
     width: 100%;
   }
@@ -2782,6 +2780,11 @@ section#intro {
 
   section#intro {
     height: 60vh;
+  }
+
+  .main.style1 h2 {
+    font-size: 3rem;
+    font-weight: bold;
   }
 }
 
@@ -2815,6 +2818,11 @@ section#intro {
 
   .project-text-container h2 {
     font-size: 1.3rem;
+  }
+
+  .about-header-container {
+    display: flex;
+    flex-direction: column;
   }
 }
 
