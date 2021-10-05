@@ -94,6 +94,10 @@
     });
   });
 
+  $(".mobile-nav").on("click", function () {
+    console.log("hello");
+  });
+
   // Section transitions.
   if (browser.canUse("transition")) {
     var on = function () {

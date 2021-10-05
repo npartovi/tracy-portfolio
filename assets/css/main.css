@@ -2765,7 +2765,15 @@ section#intro {
   padding-bottom: 0px;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 @media screen and (max-width: 1280px) {
+  .intro-profile-image {
+    position: relative;
+    margin-right: 90px;
+  }
   .main > .content {
     width: 100%;
   }
@@ -2789,6 +2797,18 @@ section#intro {
 }
 
 @media screen and (max-width: 736px) {
+  .mobile-nav {
+    padding-left: 16px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .mobile-nav i {
+    font-size: 25px;
+    margin-top: 30px;
+    color: black;
+  }
+
   .work-container {
     margin: 0 auto;
     width: 95%;
@@ -2827,6 +2847,10 @@ section#intro {
 }
 
 @media screen and (max-width: 480px) {
+  .intro-profile-image {
+    position: relative;
+    margin-right: 0px;
+  }
   #contact {
     height: 100%;
   }
