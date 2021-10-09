@@ -2742,6 +2742,10 @@ section.container.main.style1.dark.fullscreen.about-section {
   display: inline-block;
 }
 
+.case-study-container {
+  margin-top: 90px;
+}
+
 .sliding-middle-out {
   display: inline-block;
   position: relative;
