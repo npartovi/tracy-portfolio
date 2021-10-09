@@ -2691,6 +2691,7 @@ section#intro {
   text-align: left;
   font-family: "Futura";
   margin-bottom: 40px;
+  font-weight: 700;
 }
 
 .about-header-text p {
@@ -2698,22 +2699,24 @@ section#intro {
   font-family: "Futura";
   font-size: 18px;
   text-align: left;
+  font-weight: 500;
+  line-height: 40px;
 }
 
 .about-header-text {
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-left: 100px;
-  justify-content: center;
 }
 
 .content.about-content {
   width: 58em;
 }
 
-.about-header-img-container {
-  margin-right: 50px;
+.about-header-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .about-header-text button {
@@ -2721,11 +2724,6 @@ section#intro {
   width: 236px;
   font-size: 18px;
   margin-top: 25px;
-}
-
-.custom-background-about #intro {
-  height: 100%;
-  padding-bottom: 0px;
 }
 
 #header nav ul li {
@@ -2767,6 +2765,10 @@ section#intro {
 
 .mobile-nav {
   display: none;
+}
+
+.about-header-text {
+  padding-left: 130px;
 }
 
 @media screen and (max-width: 1280px) {
