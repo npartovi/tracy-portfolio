@@ -774,6 +774,11 @@ li.project-item {
   font-size: 3.125rem;
   line-height: 4.125rem;
   letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.container.about-header-container {
+  margin-top: 125px;
 }
 
 .project-text-container h2 {
@@ -803,6 +808,7 @@ li.project-item {
   align-items: center;
   max-width: 90%;
   margin: 0 auto;
+  margin-bottom: 138px;
 }
 
 /* Box */
@@ -2569,6 +2575,11 @@ section#intro {
   justify-content: center;
 }
 
+section.container.main.style1.dark.fullscreen.about-section {
+  padding-bottom: 0px;
+  margin-bottom: 210px;
+}
+
 /* #intro > header {
   color: black;
   display: flex;
@@ -2860,6 +2871,10 @@ section#intro {
 }
 
 @media screen and (max-width: 480px) {
+  section.container.main.style1.dark.fullscreen.about-section {
+    padding-bottom: 0px;
+    margin-bottom: 36px;
+  }
   .intro-profile-image {
     position: relative;
     margin-right: 0px;
@@ -2951,9 +2966,13 @@ section#intro {
     display: flex;
     flex-direction: row;
     font-size: 58px;
-    margin-top: 32px;
+    margin-top: 5px;
     justify-content: center;
-    margin-bottom: 27.5px;
+    margin-bottom: 14.5px;
+  }
+
+  a.about-button {
+    text-align: left;
   }
 
   .about-header-text p {
