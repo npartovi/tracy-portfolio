@@ -2789,7 +2789,6 @@ section.container.main.style1.dark.fullscreen.about-section {
 @media screen and (max-width: 1280px) {
   .intro-profile-image {
     position: relative;
-    margin-right: 90px;
   }
   .main > .content {
     width: 100%;
