@@ -2561,8 +2561,6 @@ body.is-touch .main {
 
 section#intro {
   height: 75vh;
-  max-width: 90%;
-  margin: 0 auto;
 }
 
 #intro .content {
@@ -2679,6 +2677,7 @@ section#intro {
 
 .custom-background-about {
   background: linear-gradient(180deg, #d8bbff 0%, #e2fdff 100%);
+  min-height: 100%;
 }
 
 .about-header-container {
