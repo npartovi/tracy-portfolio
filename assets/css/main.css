@@ -2735,6 +2735,7 @@ section.container.main.style1.dark.fullscreen.about-section {
   width: 236px;
   font-size: 18px;
   margin-top: 25px;
+  border-radius: 10px;
 }
 
 #header nav ul li {
