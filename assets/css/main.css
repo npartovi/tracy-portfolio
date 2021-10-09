@@ -2561,7 +2561,6 @@ body.is-touch .main {
 
 section#intro {
   height: 75vh;
-  width: 77em;
   max-width: 90%;
   margin: 0 auto;
 }
@@ -2716,7 +2715,7 @@ section#intro {
 .about-header-img-container img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .about-header-text button {
@@ -2767,8 +2766,12 @@ section#intro {
   display: none;
 }
 
-.about-header-text {
+.col-lg-8.about-header-text {
   padding-left: 130px;
+}
+
+#intro.about-section {
+  height: 100%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -2786,10 +2789,6 @@ section#intro {
 
   .projects-list li {
     width: 100%;
-  }
-
-  section#intro {
-    height: 60vh;
   }
 
   .main.style1 h2 {
@@ -2845,6 +2844,17 @@ section#intro {
   .about-header-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .col-lg-8.about-header-text {
+    padding-left: 0px;
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  .about-header-text h1 {
+    text-align: center;
+    margin-top: 24px;
   }
 }
 
@@ -2943,5 +2953,15 @@ section#intro {
     margin-top: 32px;
     justify-content: center;
     margin-bottom: 27.5px;
+  }
+
+  .about-header-text p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .about-header-text h1 {
+    margin-top: 24px;
+    font-size: 32px;
   }
 }
