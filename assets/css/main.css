@@ -792,6 +792,7 @@ li.project-item {
 .image-container > img {
   object-fit: contain;
   height: 100%;
+  width: 100%;
 }
 
 .project-text-container {
@@ -2809,6 +2810,9 @@ section.container.main.style1.dark.fullscreen.about-section {
 }
 
 @media screen and (max-width: 736px) {
+  .work-header > h2 {
+    font-size: 1.6667rem;
+  }
   .mobile-nav {
     padding-left: 16px;
     cursor: pointer;
