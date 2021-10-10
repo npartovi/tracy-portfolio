@@ -787,6 +787,7 @@ li.project-item {
 
 .projects-list {
   color: #5465ff;
+  padding-left: 0px;
 }
 
 .image-container > img {
