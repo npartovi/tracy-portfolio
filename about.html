@@ -32,7 +32,28 @@
     <div class="custom-background-about">
       <!-- Intro -->
       <div class="mobile-nav">
-        <i class="fas fa-bars mobile-nav-icon"></i>
+        <div class="mobile-nav">
+          <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="#"><li>Designs</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="assets/Mendoza-Tracy-Resume.pdf" target="_blank"
+                  ><li>Resume</li></a
+                >
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
       <section class="container main style1 dark fullscreen about-section">
         <!-- Header -->
