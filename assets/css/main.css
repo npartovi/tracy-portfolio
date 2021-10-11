@@ -2170,6 +2170,10 @@ img#ellipse-image {
   text-align: left;
 }
 
+.contact-cash-stash {
+  background: #dbf5f2;
+}
+
 @media screen and (max-width: 736px) {
   #intro .content {
     display: flex;
@@ -2273,6 +2277,7 @@ img#ellipse-image {
 
 .social-container a {
   margin-right: 124px;
+  line-height: 0px;
 }
 
 .social-container a:last-child {
@@ -2622,7 +2627,7 @@ section.container.main.style1.dark.fullscreen.about-section {
 
 #contact h1 {
   font-size: 36px;
-  margin-bottom: 46px;
+  margin-bottom: 32px;
   font-family: "Futura";
   font-weight: 900;
 }
@@ -2635,9 +2640,9 @@ section.container.main.style1.dark.fullscreen.about-section {
   display: flex;
   flex-direction: row;
   font-size: 58px;
-  margin-top: 62px;
+  margin-top: 32px;
   justify-content: center;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .social-container i {
@@ -3011,9 +3016,9 @@ section.container.main.style1.dark.fullscreen.about-section {
     display: flex;
     flex-direction: row;
     font-size: 58px;
-    margin-top: 5px;
+    margin-top: 26px;
     justify-content: center;
-    margin-bottom: 14.5px;
+    margin-bottom: 29.5px;
   }
 
   a.about-button {
