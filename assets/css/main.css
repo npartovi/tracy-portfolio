@@ -2913,6 +2913,10 @@ section.container.main.style1.dark.fullscreen.about-section {
   .intro-profile-image {
     width: 66%;
   }
+
+  .case-study {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
