@@ -3040,6 +3040,18 @@ section.container.main.style1.dark.fullscreen.about-section {
     border-radius: 10px;
     padding: 0px;
   }
+
+  .col-lg-8.about-header-text {
+    padding: 27px;
+  }
+
+  .about-header-img-container img {
+    width: 80%;
+  }
+
+  .col-lg-4.col-md-4.col-sm-12.about-header-img-container {
+    margin-top: 40px;
+  }
 }
 
 #menuToggle {
