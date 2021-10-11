@@ -2740,10 +2740,6 @@ section.container.main.style1.dark.fullscreen.about-section {
   display: inline-block;
 }
 
-.case-study-container {
-  margin-top: 90px;
-}
-
 .sliding-middle-out {
   display: inline-block;
   position: relative;
@@ -2949,7 +2945,7 @@ section.container.main.style1.dark.fullscreen.about-section {
   }
 
   .project-text-container {
-    padding: 8px;
+    padding: 15px;
   }
 
   section#intro {
