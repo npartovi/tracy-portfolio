@@ -2806,6 +2806,30 @@ section.container.main.style1.dark.fullscreen.about-section {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .work-header > h2 {
+    font-size: 2.2rem;
+  }
+
+  .projects-list li {
+    height: 14rem;
+  }
+
+  .social-container {
+    margin-top: 36px;
+    margin-bottom: 40px;
+  }
+
+  .project-text-container > h1 {
+    font-size: 2.6rem;
+  }
+
+  .intro-profile-image {
+    position: relative;
+    margin-right: 60px;
+  }
+}
+
 @media screen and (max-width: 736px) {
   .intro-profile-image {
     margin-bottom: 35px;
