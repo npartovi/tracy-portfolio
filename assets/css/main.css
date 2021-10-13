@@ -2946,6 +2946,9 @@ section.container.main.style1.dark.fullscreen.about-section {
 }
 
 @media screen and (max-width: 736px) {
+  .case-study-container {
+    margin-top: 51px;
+  }
   .container.animation-container {
     padding: 22px;
   }
