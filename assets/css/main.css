@@ -2812,6 +2812,7 @@ section.container.main.style1.dark.fullscreen.about-section {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  font-weight: 700;
 }
 
 .container.case-study-prototype {
