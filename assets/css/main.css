@@ -2147,9 +2147,10 @@ body.is-touch .poptrox-popup .closer {
 
 img#ellipse-image {
   position: absolute;
-  right: 46px;
-  top: -66px;
+  right: 116px;
+  top: -52px;
   z-index: 0;
+  height: 130%;
 }
 
 .intro-profile-image {
@@ -2937,6 +2938,13 @@ section.container.main.style1.dark.fullscreen.about-section {
   }
 }
 
+@media screen and (max-width: 1054px) {
+  .intro-profile-image {
+    position: relative;
+    margin-right: 62px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .container.animation-container {
     padding: 38px;
@@ -3151,7 +3159,7 @@ section.container.main.style1.dark.fullscreen.about-section {
     position: absolute;
     right: 55px;
     top: -21px;
-    z-index: -1;
+    z-index: 0;
     height: 120%;
   }
   .work-header > h2 {
