@@ -2149,7 +2149,7 @@ img#ellipse-image {
   position: absolute;
   right: 46px;
   top: -66px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .intro-profile-image {
@@ -2160,6 +2160,7 @@ img#ellipse-image {
 .intro-profile-image img {
   height: auto;
   width: 100%;
+  position: relative;
 }
 
 .intro-header-text {
@@ -2568,19 +2569,37 @@ body.is-touch .main {
   background: linear-gradient(180deg, #f6d5f7 40.12%, #fbe9d7 90.68%);
 }
 
-section#intro {
-  height: 60vh;
-}
-
 #intro .content {
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
+.intro-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 154px;
+  margin-top: 136px;
+  align-items: center;
+}
+
 section.container.main.style1.dark.fullscreen.about-section {
   padding-bottom: 0px;
   margin-bottom: 210px;
+}
+
+.intro-header-text h2 {
+  font-size: 4rem;
+  line-height: 1.5em;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.intro-header-text h3 {
+  font-family: "Futura";
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 /* #intro > header {
@@ -2912,7 +2931,7 @@ section.container.main.style1.dark.fullscreen.about-section {
     width: 100%;
   }
 
-  .main.style1 h2 {
+  .intro-header-text h2 {
     font-size: 3rem;
     font-weight: bold;
   }
@@ -2943,9 +2962,29 @@ section.container.main.style1.dark.fullscreen.about-section {
     position: relative;
     margin-right: 60px;
   }
+
+  .intro-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 113px;
+    margin-top: 80px;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 736px) {
+  .intro-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+
+  #intro {
+    padding: 0em 0 3em 0;
+  }
+
   .case-study-container {
     margin-top: 51px;
   }
@@ -3125,7 +3164,7 @@ section.container.main.style1.dark.fullscreen.about-section {
     margin-bottom: 35px;
   }
 
-  .main.style1 h2 {
+  .intro-header-text h2 {
     font-size: 2em;
   }
 
@@ -3148,6 +3187,10 @@ section.container.main.style1.dark.fullscreen.about-section {
   }
 
   .content h3 {
+    font-size: 14px;
+  }
+
+  .intro-header-text h3 {
     font-size: 14px;
   }
 
