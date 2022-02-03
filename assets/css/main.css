@@ -777,9 +777,9 @@ li.project-item {
   font-weight: bold;
 }
 
-.container.about-header-container {
+/* .container.about-header-container {
   margin-top: 125px;
-}
+} */
 
 .project-text-container h2 {
   font-size: 1.5rem;
@@ -2231,9 +2231,10 @@ img#ellipse-image {
 }
 
 .main > .content {
-  width: 45em;
-  max-width: calc(100% - 4em);
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main.fullscreen {
@@ -2267,18 +2268,18 @@ img#ellipse-image {
   font-weight: 500;
 }
 
-#contact.main {
+/* #contact.main {
   padding: 0px;
   align-items: center;
   display: flex;
-}
+} */
 
 #work.main {
   padding-bottom: 110px;
 }
 
 .social-container a {
-  margin-right: 124px;
+  margin-right: 80px;
   line-height: 0px;
 }
 
@@ -2368,7 +2369,7 @@ img#ellipse-image {
 
 .main.style3 {
   text-align: center;
-  padding: 0 0 6em 0;
+  /* padding: 0 0 6em 0; */
 }
 
 .work-header > h2 {
@@ -2584,10 +2585,10 @@ body.is-touch .main {
   align-items: center;
 }
 
-section.container.main.style1.dark.fullscreen.about-section {
+/* section.container.main.style1.dark.fullscreen.about-section {
   padding-bottom: 0px;
   margin-bottom: 210px;
-}
+} */
 
 .intro-header-text h2 {
   font-size: 4rem;
@@ -2642,7 +2643,7 @@ section.container.main.style1.dark.fullscreen.about-section {
   overflow: hidden;
   padding-bottom: 0; */
   color: #000000;
-  height: 26.67rem;
+  /* height: 10rem; */
 }
 
 #contact h1 {
@@ -2692,6 +2693,11 @@ section.container.main.style1.dark.fullscreen.about-section {
 @media screen and (max-width: 736px) {
   #contact .box {
     padding: 1.5em 1.5em 2em 1.5em;
+  }
+
+  .main > .content {
+    width: 100%;
+    flex-direction: column;
   }
 }
 
@@ -2922,6 +2928,7 @@ section.container.main.style1.dark.fullscreen.about-section {
   }
   .main > .content {
     width: 100%;
+    flex-direction: column;
   }
 
   .projects-list {
@@ -3132,10 +3139,6 @@ section.container.main.style1.dark.fullscreen.about-section {
     font-size: 25px;
   }
 
-  h3#copy-right {
-    margin-bottom: 24px;
-  }
-
   section#contact {
     margin-top: 40px;
   }
@@ -3247,10 +3250,6 @@ section.container.main.style1.dark.fullscreen.about-section {
 
   .col-lg-8.about-header-text {
     padding: 27px;
-  }
-
-  .about-header-img-container img {
-    width: 80%;
   }
 
   .col-lg-4.col-md-4.col-sm-12.about-header-img-container {
