@@ -2237,8 +2237,12 @@ img#ellipse-image {
   justify-content: space-between;
 }
 
-.main.fullscreen {
+/* .main.fullscreen {
   min-height: 100%;
+} */
+
+.flex-grow-div {
+  flex-grow: 1;
 }
 
 .main.style1 {
@@ -2716,8 +2720,10 @@ body.is-touch .main {
 /* about */
 
 .custom-background-about {
-  background: linear-gradient(180deg, #d8bbff 0%, #e2fdff 100%);
-  min-height: 100%;
+  background: linear-gradient(180deg, #f9dfb3 -59.13%, #f6d5f7 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-header-container {
@@ -2760,11 +2766,16 @@ body.is-touch .main {
 }
 
 .about-header-text button {
-  height: 85.74px;
-  width: 236px;
+  height: 66px;
+  width: 259px;
   font-size: 18px;
   margin-top: 25px;
   border-radius: 10px;
+  font-size: 24px;
+  background: #f8f9c7;
+  font-style: normal;
+  font-weight: 500;
+  color: black;
 }
 
 #header nav ul li {
@@ -2807,9 +2818,9 @@ body.is-touch .main {
   display: none;
 }
 
-.col-lg-8.about-header-text {
+/* .col-lg-8.about-header-text {
   padding-left: 130px;
-}
+} */
 
 .container.case-study-prototype {
   display: flex;
