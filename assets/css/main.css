@@ -2245,10 +2245,6 @@ img#ellipse-image {
   flex-grow: 1;
 }
 
-.test {
-  min-height: 100vh;
-}
-
 .footer-wrapper {
   display: flex;
   flex-direction: row;
@@ -2730,7 +2726,7 @@ body.is-touch .main {
 /* about */
 
 .test {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
