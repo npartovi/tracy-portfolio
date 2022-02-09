@@ -767,7 +767,7 @@ li.project-item {
 }
 
 .project-text-container {
-  font-family: "Futura";
+  font-family: "Poppins";
 }
 
 .project-text-container > h1 {
@@ -835,7 +835,7 @@ li.project-item {
 }
 
 .box h2 {
-  font-family: "Futura";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -885,7 +885,7 @@ button {
   position: relative;
   text-align: center;
   text-decoration: none;
-  font-family: "Futura";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
   width: 21.111rem;
@@ -1248,7 +1248,7 @@ textarea {
 
 article {
   color: #386fa4;
-  font-family: "Futura";
+  font-family: "Poppins";
 }
 
 article h2 {
@@ -2103,7 +2103,7 @@ body.is-touch .poptrox-popup .closer {
   line-height: 3em;
   cursor: default;
   color: black;
-  font-family: "PilGi";
+  font-family: "Poppins";
   font-size: 36px;
   cursor: pointer;
 }
@@ -2124,7 +2124,7 @@ body.is-touch .poptrox-popup .closer {
 #header nav ul {
   margin: 0;
   color: black;
-  font-family: "Futura";
+  font-family: "Poppins";
   font-size: 1.3333rem;
   font-weight: 500;
 }
@@ -2268,13 +2268,13 @@ img#ellipse-image {
 .main.style1 h2 {
   font-size: 4rem;
   line-height: 1.5em;
-  font-family: "Futura";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
 }
 
 .content h3 {
-  font-family: "Futura";
+  font-family: "Poppins";
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -2386,7 +2386,7 @@ img#ellipse-image {
 .work-header > h2 {
   font-size: 2.6667rem;
   font-style: normal;
-  font-family: "Futura";
+  font-family: "Poppins";
   color: #5465ff;
   line-height: 3.5556rem;
   text-align: left;
@@ -2603,13 +2603,13 @@ body.is-touch .main {
 .intro-header-text h2 {
   font-size: 4rem;
   line-height: 1.5em;
-  font-family: "Futura";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
 }
 
 .intro-header-text h3 {
-  font-family: "Futura";
+  font-family: "Poppins";
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -2659,7 +2659,7 @@ body.is-touch .main {
 #contact h1 {
   font-size: 36px;
   margin-bottom: 32px;
-  font-family: "Futura";
+  font-family: "Poppins";
   font-weight: 900;
 }
 
@@ -2745,14 +2745,14 @@ body.is-touch .main {
   color: black;
   font-size: 48px;
   text-align: left;
-  font-family: "Futura";
+  font-family: "Poppins";
   margin-bottom: 40px;
   font-weight: 700;
 }
 
 .about-header-text p {
   color: black;
-  font-family: "Futura";
+  font-family: "Poppins";
   font-size: 18px;
   text-align: left;
   font-weight: 500;
@@ -3277,7 +3277,7 @@ body.is-touch .main {
     width: 120px;
     font-size: 14px;
     margin-top: 25px;
-    font-family: Futura;
+    font-family: "Poppins";
     font-weight: 500;
     border-radius: 10px;
     padding: 0px;
