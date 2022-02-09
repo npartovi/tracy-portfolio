@@ -2249,12 +2249,6 @@ img#ellipse-image {
   min-height: 100vh;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 .footer-wrapper {
   display: flex;
   flex-direction: row;
@@ -2734,6 +2728,13 @@ body.is-touch .main {
 } */
 
 /* about */
+
+.test {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .custom-background-about {
   background: linear-gradient(180deg, #f9dfb3 -59.13%, #f6d5f7 100%);
